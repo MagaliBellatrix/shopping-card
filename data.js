@@ -63,3 +63,9 @@ const products = [
   description: 'lorem ipsum'
 }
 ];
+
+
+
+var card = document.getElementById("product-card");
+card.insertAdjacentHTML("afterend", "product-card");
+
